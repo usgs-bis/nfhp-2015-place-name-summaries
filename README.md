@@ -11,11 +11,11 @@ Daniel Wieferich (dwieferich@usgs.gov)
 -----------
 Collaborators:
 -----------
-Dana Infante: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University
-Kyle Herreman: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University
-Arthur Cooper: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University
-Wesley Daniel: Cherokee Nation contracted to US Geological Survey 
-National Fish Habitat Partnership
+Dana Infante: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University__
+Kyle Herreman: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University__
+Arthur Cooper: Aquatic Landscape Ecology Lab; Fisheries and Wildlife Department Michigan State University__
+Wesley Daniel: Cherokee Nation contracted to US Geological Survey__ 
+National Fish Habitat Partnership__
 
 
 
@@ -28,12 +28,12 @@ Use this link to find out more about the NFHP source data being used in these ef
 fish habitat at 4 spatial scales (i.e. local catchment, network catchment, local catchment buffer, and network catchment buffers) for over 2 million stream segments of the National Hydrography Plus Version 1 datasets within 
 the conterminous United States. 
 
-This repository currently provides methods of summarizing information to spatial units of interest in the notebook: nfhp-2015-hci-summarized-using-midpoint.ipynb
+This repository currently provides methods of summarizing information to spatial units of interest in the notebook: nfhp-2015-hci-summarized-using-midpoint.ipynb__
 
-This repository currently provides methods of visualizing summarized NFHP data in the following ways.
-	1. Display total kilometers of NHDPlusV1 streams being scored by NFHP within a spatial unit (nfhp-2015-hci-total-stream-km-scored-per-spatial-unit.ipynb)
-	2. Display length-weighted averages of fish habitat condition indicies for a given spatial unit. (nfhp-2015-place-name-summaries.ipynb)
-	3. Display disturbance variables that influenced fish habitat condition within a given spatial unit. (nfhp-2015-table-of-significant-disturbances-per-spatial-unit.ipynb)
+This repository currently provides methods of visualizing summarized NFHP data in the following ways.__
+	1. Display total kilometers of NHDPlusV1 streams being scored by NFHP within a spatial unit (nfhp-2015-hci-total-stream-km-scored-per-spatial-unit.ipynb)__
+	2. Display length-weighted averages of fish habitat condition indicies for a given spatial unit. (nfhp-2015-place-name-summaries.ipynb)__
+	3. Display disturbance variables that influenced fish habitat condition within a given spatial unit. (nfhp-2015-table-of-significant-disturbances-per-spatial-unit.ipynb)__
 
 
 
