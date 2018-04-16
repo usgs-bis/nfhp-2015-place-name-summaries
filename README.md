@@ -1,5 +1,5 @@
 *** DRAFT *** Code Used to Summarize the National Fish Habitat Partnership's National Inland Assessment of Fish Habitat Condition (2015) 
-to ecological and jurisdictional units.
+to Ecological and Jurisdictional units.
 ===============================================================================================================
 
 -----------
