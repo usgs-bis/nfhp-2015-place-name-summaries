@@ -1,4 +1,4 @@
-Code Used to Summarize the National Fish Habitat Partnership's National Inland Assessment of Fish Habitat Condition (2015) 
+*** DRAFT *** Code Used to Summarize the National Fish Habitat Partnership's National Inland Assessment of Fish Habitat Condition (2015) 
 to ecological and jurisdictional units.
 ===============================================================================================================
 
@@ -22,14 +22,18 @@ National Fish Habitat Partnership
 -----------
 Purpose:
 -----------
-This repository contains IPython Notebooks and Python files that document methods that summarize and visualize the National Fish Habitat Partnership's (NFHP) National Inland Assessment of Fish Habitats (2015)
+This repository contains IPython Notebooks and Python files documenting methods that summarize and visualize the National Fish Habitat Partnership's (NFHP) National Inland Assessment of Fish Habitats (2015)
 to ecological and jurisdictional boundaries that may be relevant to fisheries management decisions (e.g. National Park Boundaries, Hydrological Units, States).  
-Use this link to find out more about the NFHP source data being used in these efforts: https://doi.org/10.5066/F73R0R1P.  The source data include habitat condition indicies and landscape disturbances that influence
-fish habitat at 4 spatial scales (i.e. local catchment, network catchment, local catchment buffer, and network catchment buffers) for over 2 million stream segments of the National Hydrography Plus Version 1 datasets within 
-the conterminous United States. 
-
-This repository currently provides methods of summarizing information to spatial units of interest in the notebook: nfhp-2015-hci-summarized-using-midpoint.ipynb	  	  
-
+    
+The source data include habitat condition indicies and landscape disturbances that influence fish habitat at 4 spatial scales (i.e. local catchment, network catchment, local catchment buffer, and 
+network catchment buffers) for over 2 million stream segments of the National Hydrography Plus Version 1 datasets within the conterminous United States. Use this link to find out more about the 
+NFHP source data being used in these efforts: https://doi.org/10.5066/F73R0R1P.    
+  
+This repository currently provides methods of summarizing information to spatial units of interest in the notebook: nfhp-2015-hci-summarized-using-midpoint.ipynb
+Curent summarization methods take NFHP data (at the stream reach scale) and summarize it to the spatial unit of interest.  A stream reach is included in a summary if it's midpoint falls within
+the spatial unit.  Habitat condition indicies are then summarized using a length-weighted average.  Disturbance variables for each of the four spatial scales are summarized by combining lists
+of disturbances from individual stream reaches into a common list of unique values.   
+  
 This repository currently provides methods of visualizing summarized NFHP data in the following ways.	  
 	1. Display total kilometers of NHDPlusV1 streams being scored by NFHP within a spatial unit (nfhp-2015-hci-total-stream-km-scored-per-spatial-unit.ipynb)	  
 	2. Display length-weighted averages of fish habitat condition indicies for a given spatial unit. (nfhp-2015-place-name-summaries.ipynb)	  
