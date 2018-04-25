@@ -23,9 +23,25 @@ National Fish Habitat Partnership
 Purpose:
 -----------
 This repository contains IPython Notebooks and Python files documenting methods that summarize and visualize the National Fish Habitat Partnership's (NFHP) National Inland Assessment of Fish Habitats (2015)
-to ecological and jurisdictional boundaries that may be relevant to fisheries management decisions (e.g. National Park Boundaries, Hydrological Units, States).  
-    
-The source data include habitat condition indicies and landscape disturbances that influence fish habitat at 4 spatial scales (i.e. local catchment, network catchment, local catchment buffer, and 
+to ecological and jurisdictional boundaries that may be relevant to conservation decisions (e.g. National Park Boundaries, Hydrological Units, States).  
+
+Often biologist, park managers and other decision makers are confronted with the need to prioritize funding of conservation and restoration efforts with limited resources and information to make these decisions.
+These summaries of NFHP data are intended to give a user an additional set of information helping them better understand implications of fish habitat condition within their jurisdiction and associated ecological units. 
+More specificly this information is anticipated to help ensure the user is considering appropriate disturbances at appropriate spatial scales when making decisions about fish habitat. A few more directed use cases are described below.
+
+For smaller spatial units and jurisdictions, managers are likely to be aware of specific disturbances and associated issues with fish habitat, but
+landscape level influences may be less intuitive and harder to quantify.  These users can use the NFHP summaries to help understand a quick overview of disturbances and spatial scales (e.g. especially network disturbances) to further 
+investigate through exploring NFHP's catchment level information (i.e. habitat condition scores, significant disturbance metrics, and disturbance summaries) and other finer resolution sources of information that may be available.
+  
+In cases where several ecological units are within a larger jurisdiction a decision maker can quickly compare overall risk of fish habitat degredation and influencing disturbances.  Again these findings can be further 
+investigated by exploring NFHP's catchment level information (i.e. habitat condition scores, significant disturbance metrics, and disturbance summaries) and other finer resolution sources of information that may be available.
+  
+
+
+-----------
+Additional Details:
+-----------
+The source data include habitat condition indicies and select landscape disturbances (having nationaly consistent coverage) that influence fish habitat at 4 spatial scales (i.e. local catchment, network catchment, local catchment buffer, and 
 network catchment buffers) for over 2 million stream segments of the National Hydrography Plus Version 1 datasets within the conterminous United States. Use this link to find out more about the 
 NFHP source data being used in these efforts: https://doi.org/10.5066/F73R0R1P.    
   
