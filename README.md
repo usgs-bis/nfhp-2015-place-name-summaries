@@ -20,9 +20,17 @@ National Fish Habitat Partnership
 
 
 -----------
+Data Dependencies:
+-----------
+*2015 National Fish Habitat Partnership's National Assessment Fish Habitat Condition Index ('data/nfhp-2015-data')
+*National Hydrography Dataset Plus Version 1 Flowlines ('data/nhdplusv1-data')
+*Place Name Lookup Spatial Features ('sfr place name api endpoint goes here')
+
+
+-----------
 Purpose:
 -----------
-This repository contains IPython Notebooks and Python files documenting methods that summarize and visualize the National Fish Habitat Partnership's (NFHP) National Inland Assessment of Fish Habitats (2015)
+This repository will contain IPython Notebooks and Python files documenting methods that summarize and visualize the National Fish Habitat Partnership's (NFHP) National Inland Assessment of Fish Habitats (2015)
 to ecological and jurisdictional boundaries that may be relevant to conservation decisions (e.g. National Park Boundaries, Hydrological Units, States).  
 
 Often biologist, park managers and other decision makers are confronted with the need to prioritize funding of conservation and restoration efforts with limited resources and information to make these decisions.
