@@ -1,0 +1,13 @@
+{
+  "title": "National Assessment of Fish Habitats",
+  "description": "Data Management Efforts Related to the National Fish Habitat Partnership's National Assessment of Fish Habitats",
+  "openByDefault": true,
+ "charts": [
+     {
+        "title": "National Assessment of Fish Habitats",
+        "type": "nfhp",
+        "lookupColumn": "place_name",
+        "elasticEndpoint": "https://sciencebase.usgs.gov/staging/bis/api/v1/nfhpmetrics/condition?feature_id="
+     }
+  ]
+}
